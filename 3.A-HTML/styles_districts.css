@@ -1,0 +1,96 @@
+body{
+  background-color:white;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position:  static;
+}
+h1 {
+  font-family: Brush Script MT;
+  color: rgba(225, 25, 33, 1);
+  font-size: 800%;
+  text-align: center;
+  position: static;
+  margin-top: +100px;
+  text-decoration-style: solid;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+
+
+ul{
+  margin-top: 100px;
+  list-style-type:none;
+  overflow: visible;
+  background-color: white;
+  position: static;
+  margin-left: 200px;
+  margin-right: 200px;
+
+  width: 100%;
+
+}
+
+li{
+  float:left;
+}
+li1{
+  float:left;
+  background-image: url(https://www.staremesto.sk/data/MediaLibrary/39/39545/SM-Logo-invert-500px-transparent.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px;
+}
+
+
+li a {
+  display: block;
+  color: transparent;
+  text-align: center;
+  padding: 180px;
+  text-decoration: none;
+  font-family: Brush Script MT;
+  font-size: 200%;
+}
+
+
+li a:hover {
+  background-color:rgba(0,0,0,0.5);
+  color: white;
+  border-radius: 100px;
+}
+
+li2{
+  float:left;
+  background-image: url(https://www.cestounecestou.sk/wp-content/uploads/2018/01/ruzinov-logo.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+li3{
+  float:left;
+  background-image: url(https://www.banm.sk/images/bg_logo.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+
+li4{
+  float:left;
+  background-image: url(https://www.petrzalka.sk/wp-content/uploads/2019/07/Logotyp_vertikal_1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+
+
+background-image:url(https://media3.giphy.com/media/RtdRhc7TxBxB0YAsK6/giphy.gif)

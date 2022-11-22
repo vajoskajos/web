@@ -1,0 +1,97 @@
+body{
+  background-image: url(https://digital.ihg.com/is/image/ihg/crowne-plaza-bratislava-6554210634-16x5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:  static;
+  background-attachment: fixed;
+}
+h1 {
+  font-family: Brush Script MT;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 800%;
+  text-align: center;
+  position: static;
+  margin-top: +180px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+
+
+ul{
+  margin-top: 200px;
+  list-style-type:none;
+  overflow: visible;
+  background-color: white;
+  position: static;
+  margin-left: 400px;
+  margin-right: 180px;
+
+  width: 100%;
+
+}
+
+li{
+  float:left;
+}
+li1{
+  float:left;
+  background-image: url(Untitled-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px;
+}
+
+
+li a {
+  display: block;
+  color: transparent;
+  text-align: center;
+  padding: 180px;
+  text-decoration: none;
+  font-family: Brush Script MT;
+  font-size: 200%;
+}
+
+
+li a:hover {
+  background-color:rgba(0,0,0,0.5);
+  color: white;
+  border-radius: 100px;
+}
+
+li2{
+  float:left;
+  background-image: url(Untitled-5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+li3{
+  float:left;
+  background-image: url(Untitled-6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+
+li4{
+  float:left;
+  background-image: url(Untitled-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+
+
+background-image:url(https://media3.giphy.com/media/RtdRhc7TxBxB0YAsK6/giphy.gif)
