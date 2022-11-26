@@ -18,20 +18,17 @@ h1 {
 
 
 ul{
-  margin-top: 100px;
   list-style-type:none;
-  overflow: visible;
-  background-color: white;
-  position: static;
-  margin-left: 200px;
-  margin-right: 200px;
-
-  width: 100%;
+  width: auto;
+  display: table;
+  margin: 0 auto;
+  text-align: left;
 
 }
 
 li{
   float:left;
+  margin-bottom: 10px;
 }
 li1{
   float:left;
@@ -91,6 +88,11 @@ li4{
   margin-left: 10px;
 }
 
-
+hr{
+  background-color:rgba(215, 25, 33, 1);
+  border-radius: 50px;
+  height: 10px;
+  width: 75%;
+}
 
 background-image:url(https://media3.giphy.com/media/RtdRhc7TxBxB0YAsK6/giphy.gif)

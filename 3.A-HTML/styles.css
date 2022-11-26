@@ -20,20 +20,17 @@ h1 {
 
 
 ul{
-  margin-top: 200px;
   list-style-type:none;
-  overflow: visible;
-  background-color: white;
-  position: static;
-  margin-left: 400px;
-  margin-right: 180px;
-
-  width: 100%;
-
+  width: auto;
+  display: table;
+  margin: 0 auto;
+  text-align: left;
 }
 
 li{
-  float:left;
+  float: left;
+  margin-bottom: 10px;
+
 }
 li1{
   float:left;

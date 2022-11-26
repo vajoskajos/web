@@ -2,7 +2,7 @@ body{
 
 }
 h1 {
-  font-family: Brush Script MT;
+  font-family: impact;
   color: rgba(215, 25, 33, 1);
   font-size: 800%;
   text-align: center;
@@ -11,38 +11,74 @@ h1 {
   text-decoration-style: solid;
   margin-left: 50px;
   margin-right: 50px;
-  }
+}
+
+h2 {
+  font-family: impact;
+  color: rgba(215, 25, 33, 1);
+  font-size: 300%;
+  text-align: left;
+  position: static;
+  text-decoration-style: solid;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-decoration: underline;
+}
+
+p {
+text-align:justify;
+font-size:26;
+margin-left:250;
+margin-right:250;
+line-height: 1.2;
+}
+
 
 hr{
   background-color:rgba(215, 25, 33, 1);
   border-radius: 50px;
   height: 10px;
+  width: 75%;
+}
+
+div.cent{
+  margin-left: 250px;
+  align:center;
 }
 
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
+  display: table;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-bottom: 10px;
   float: left;
-  width: 600px;
+  border-radius: 50px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 2px solid #777;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+  width: 474px;
+  height: 258;
+  max-height: 258px;
+  max-width: 474px;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
 }
 
 div.desc {
   padding: 15px;
+  font-style: italic;
+  font-family: impact;
   text-align: center;
 }
 
 marquee {
-   margin-left: 200px;
-   margin-right: 200px;
+   margin-left: 250px;
+   margin-right: 250px;
    direction:left;
    font-size: 250%;
    height:100px;
