@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('https://t4.ftcdn.net/jpg/04/20/51/95/360_F_420519574_H91HZD87Aut04IiY2E65C4mCkUqMBfyI.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: none;
+  background-repeat: no-repeat;
+  position: relative;
+  color: rgba(215, 25, 33, 1);
+  font-family: "impact;", impact, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  bottom: 20%;
+  left: 50%;
+  color: black;
+  font-family: sans-serif;
+}
+
+.middle {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  background-color:rgba(215, 25, 33, 1);
+  border-radius: 50px;
+  height: 10px;
+  width: 75%;
+}
